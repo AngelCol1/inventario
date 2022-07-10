@@ -27,12 +27,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Iniciar Sesión</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Ingresar Productos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#registropedidos.php">Stock</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Pedidos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Ingresar Pedidos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Cerrar Sesión</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.php">Iniciar Sesión</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pedidos.php">Pedidos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ingresarproductos.php">Ingresar Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="registrarpedidos.php">Ingresar Pedidos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="logout.php">Cerrar Sesión</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,18 +41,47 @@
             <div class="container">
                 <div class="masthead-subheading">Bienvenido</div>
                 <div class="masthead-heading text-uppercase">Equipos y partes de Computo</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#productos">Productos</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#stock">Stock</a>
             </div>
         </header>
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="productos">
+        <section class="page-section bg-light" id="stock">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Productos</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
                 
-        
+        <!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Stock Productos</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre de Producto</th>
+                        <th>Marca</th>
+                        <th>Descripcion</th>
+                        <th>Existencias</th>
+                        <th>Precio Unidad</th>
+                        <th>ACCIONES</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                    <th>ID</th>
+                    <th>Nombre de Producto</th>
+                    <th>Marca</th>
+                    <th>Descripcion</th>
+                    <th>Existencias</th>
+                    <th>Precio Unidad</th>
+                    <th>ACCIONES</th>
+                    </tr>
+                </tfoot>
         <!-- Portfolio Modals-->
        
         <!-- Bootstrap core JS-->
