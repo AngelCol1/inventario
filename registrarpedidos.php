@@ -20,48 +20,48 @@
                 
     <!-- Begin Page Content -->
                 <div class="container-fluid">
-                <form method="POST" action="registrar.php">
+                <form method="POST" action="insertar_pedido.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nombre de Producto</label>
-    <input type="text" class="form-control" name="nombre" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Nombre_producto" aria-describedby="emailHelp">
    
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Marca</label>
-    <input type="text" class="form-control" name="apellido" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Marca" aria-describedby="emailHelp">
    
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Descripcion</label>
-    <input type="text" class="form-control" name="telefono" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Descripcion" aria-describedby="emailHelp">
     
   </div>
 
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Tienda</label>
-    <input type="text" class="form-control" name="telefono" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Tienda" aria-describedby="emailHelp">
     
   </div>
 
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Proveedor</label>
-    <input type="text" class="form-control" name="telefono" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Proveedor" aria-describedby="emailHelp">
     
   </div>
 
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Cantidad</label>
-    <input type="text" class="form-control" name="telefono" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Cantidad" aria-describedby="emailHelp">
     
   </div>
 
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Costo Total</label>
-    <input type="text" class="form-control" name="telefono" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="Costo_Total" aria-describedby="emailHelp">
     
   </div>
 
